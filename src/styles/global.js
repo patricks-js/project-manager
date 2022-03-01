@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
         --font-primary: 'Poppins', sans-serif;
         --header-height: 6rem;
         --color-text: #f8f8f8;
+        --color-text-secondary: #80807e;
         --color-alt: #ffbb33;
         --color-secondary: #333;
     }
