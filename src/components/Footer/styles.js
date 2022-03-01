@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.footer`
   width: 100%;
   height: var(--header-height);
-  background-color: #333;
+  background-color: var(--color-secondary);
   position: relative;
   bottom: 0;
   left: 0;

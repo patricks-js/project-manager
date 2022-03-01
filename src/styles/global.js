@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
         --header-height: 6rem;
         --color-text: #f8f8f8;
         --color-alt: #ffbb33;
+        --color-secondary: #333;
     }
     html, body, #root {
         background-color: #f8f8f8;
@@ -20,13 +21,12 @@ const GlobalStyle = createGlobalStyle`
         font-size: 100%;
         font-family: var(--font-primary);
     }
-    header, footer {
+    main, header, footer {
         padding: 0 3rem;
     }
     main {
         min-height: calc(100% - var(--header-height) * 2 + 6px);
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin: 3rem 0;
     }
     ul, li {
         list-style: none;
